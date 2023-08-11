@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    
+}
+nav#menu li{
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.236);
+    padding: 10px;
+    margin: 5px;
+    background-color: gray;
+}
+nav#menu li:hover{
+
+    color: goldenrod;
+    background-color: purple;
+}
+nav#menu h3{
+    display: none;
+}
